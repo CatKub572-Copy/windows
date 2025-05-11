@@ -35,6 +35,8 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
+      USERNAME: "administrator"
+      PASSWORD: "admin.only"
     devices:
       - /dev/kvm
       - /dev/net/tun
